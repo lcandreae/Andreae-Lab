@@ -2,11 +2,11 @@
 
 % Short explanation to reconstruct dendrites in NeuronJ and import into MATLAB:
 % 1) Open ImageJ
-% 2) Open calcium imaging time-series -> create an averaged/maximum projection image -> Save as 8-bit (Image –> type –> 8-bit)
+% 2) Open calcium imaging time-series -> create an averaged/maximum projection image -> Save as 8-bit (Image â€“> type â€“> 8-bit)
 % 3) Open NeuronJ (Plugins -> NeuronJ)
 % 4) Load saved image into NeuronJ
-% 4) ‘Add tracings’ button to recreate dendrites
-% 5) Export tracings as a ‘tab-delimited text file’ (first option)
+% 4) â€˜Add tracingsâ€™ button to recreate dendrites
+% 5) Export tracings as a â€˜tab-delimited text fileâ€™ (first option)
 % 6) Copy & paste data in text file into an excel file to ease importing
 
 
@@ -318,6 +318,8 @@ disp(maxValues);
 
 
 
+%%
+%%
 
 
 
