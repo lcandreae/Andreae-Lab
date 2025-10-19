@@ -343,6 +343,7 @@ clear all; close all; clc;
 %   (1) to test coupling of the longest event with its nearest global event, and
 %   (2) again for the second-longest event, after setting the first event to zero 
 %       to avoid re-testing the same event.
+% Code runs separately from previous code (this code specifically tests global-local event coupling)
 
 
 %% ------------------------------------------------------------------------
@@ -916,6 +917,7 @@ hold off;
 
 %% DONE
 fprintf('Processing complete.\n');
+
 
 
 
